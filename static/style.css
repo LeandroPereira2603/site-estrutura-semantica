@@ -1,0 +1,111 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 15vh;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: orange;
+    width: 100%;
+    height: 15vh;
+}
+
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 77% 23% ;
+    grid-template-areas: 'esq dir';
+}
+
+
+section{
+
+    display: grid;
+    grid-area: esq;
+    background-color: yellow;
+    width: 100%;
+    height: 55vh;
+
+}
+
+article{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 98%;
+    height: 22vh;
+    background-color: green;
+}
+
+.conteiner-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+   
+}
+
+
+aside{
+
+    display: grid;
+    grid-area: dir;
+    width: 100%;
+    height: 55vh;
+    background-color:rgb(0, 153, 153);
+}
+
+
+.conteiner-align{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: blueviolet;
+}
+
+
