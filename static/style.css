@@ -6,8 +6,8 @@
 
 body{
 
-   border: 10px solid white;
-   margin: 5% auto;
+    border: 10px solid white;
+    margin: 5% auto;
     width: 45%;
     height: 100%;
     background:linear-gradient(blue,aqua);
@@ -88,7 +88,6 @@ article{
     align-items: center;
     width: 150px;
     height: 150px;
-   
 }
 
 
@@ -120,17 +119,42 @@ footer{
 }
 
 
-@media screen and (max-width:799px){
+@media screen and (max-width:769px){
 
     body{
 
-        margin: 2% auto;
+         margin: 2% auto;
          width: 80%;
          height: 100%;
      
      }
 
+     
+     .grid{
+
+        display: block;
+        gap: 10px;
+      
+
+     }
+
+    aside{
+ 
+    width: 100%;
+    height: 15vh;
+    background-color:rgb(0, 153, 153);
+}
+
+section{
+
+    background-color: yellow;
+    width: 100%;
+    height: 55vh;
+
+}
+
      h1{
+
         font-size: 30px;
      }
 
